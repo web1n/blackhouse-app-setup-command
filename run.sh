@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-package_name="com.catchingnow.icebox"
-admin_component="com.catchingnow.icebox/.receiver.DPMReceiver"
-app_name="冰箱 Ice Box "
+package_name="web1n.stopapp"
+admin_component="web1n.stopapp/.receiver.AdminReceiver"
+app_name="小黑屋"
 
 echo
 echo
@@ -60,7 +60,7 @@ set_owner() {
 		echo "无论手机重启或升级，持续有效"
 		echo "如需卸载${app_name}，请务必先全部解冻，再在其设置中选择卸载"
 		echo "其他问题请参考文档："
-		echo "http://t.cn/E5QwyJN"
+		echo "http://t.cn/E5EvFnP"
 		echo
 		exit
 	elif [[ "$lower_case_result" == *"accounts on the device"* ]]; then
